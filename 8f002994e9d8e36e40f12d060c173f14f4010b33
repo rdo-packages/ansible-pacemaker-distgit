@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dab895d6_25c1f92e",
+        "filename": "ansible-pacemaker.spec",
+        "patchSetId": 11
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 278
+      },
+      "writtenOn": "2017-01-17T14:50:42Z",
+      "side": 1,
+      "message": "Actually, i don\u0027t understand why it doesn\u0027t install the source into the sitelib.\nerror: File not found: /builddir/build/BUILDROOT/ansible-pacemaker-0.0.1-0.20170117141852.9ebe948.el7.centos.x86_64/usr/lib/python2.7/site-packages/ansible-pacemaker-0.0.1-py2.7.egg-info\nMaybe because the setup.cfg install the lib under /usr/share/ansible-modules",
+      "revId": "8f002994e9d8e36e40f12d060c173f14f4010b33",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
