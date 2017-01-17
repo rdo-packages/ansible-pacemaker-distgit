@@ -16,6 +16,24 @@
       "revId": "8f002994e9d8e36e40f12d060c173f14f4010b33",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dab895d6_a588a9e8",
+        "filename": "ansible-pacemaker.spec",
+        "patchSetId": 11
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 113
+      },
+      "writtenOn": "2017-01-17T15:05:21Z",
+      "side": 1,
+      "message": "It\u0027s copied to a different directory:\n\n2017-01-17 14:19:04,494 INFO:dlrn-build:DEBUG: Copying ansible_pacemaker.egg-info to /builddir/build/BUILDROOT/ansible-pacemaker-0.0.1-0.20170117141852.9ebe948.el7.centos.x86_64/usr/lib/python2.7/site-packages/ansible_pacemaker-0.0.1-py2.7.egg-info\n\nNote it ansible_pacekamer (with an underscore)",
+      "parentUuid": "dab895d6_25c1f92e",
+      "revId": "8f002994e9d8e36e40f12d060c173f14f4010b33",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
     }
   ]
 }
