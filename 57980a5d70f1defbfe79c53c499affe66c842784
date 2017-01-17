@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dab895d6_25ee59ed",
+        "filename": "ansible-pacemaker.spec",
+        "patchSetId": 10
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 113
+      },
+      "writtenOn": "2017-01-17T13:25:53Z",
+      "side": 1,
+      "message": "This line needs to be removed. Line 46 from patch set 8 (the one that includes the egg-info directory) is needed.",
+      "range": {
+        "startLine": 45,
+        "startChar": 0,
+        "endLine": 45,
+        "endChar": 29
+      },
+      "revId": "57980a5d70f1defbfe79c53c499affe66c842784",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
