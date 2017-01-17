@@ -34,6 +34,24 @@
       "revId": "8f002994e9d8e36e40f12d060c173f14f4010b33",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dab895d6_45634d1a",
+        "filename": "ansible-pacemaker.spec",
+        "patchSetId": 11
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 278
+      },
+      "writtenOn": "2017-01-17T15:45:19Z",
+      "side": 1,
+      "message": "erf nice catch Javier, that what happen when doing X number of things in parallele :) thanks",
+      "parentUuid": "dab895d6_a588a9e8",
+      "revId": "8f002994e9d8e36e40f12d060c173f14f4010b33",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
     }
   ]
 }
