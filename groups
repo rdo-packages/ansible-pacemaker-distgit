@@ -1,5 +1,5 @@
-# UUID          Group Name
-False 	Non-Interactive Users
-f70bf358505ef81d2b7c12cecbe3f9563bfd9693       	openstack/ansible-pacemaker-distgit-core
-94fa2eefe71cb345fed9b8dbb881bd0ac85f5008        	openstack/ansible-pacemaker-distgit-ptl
-global:Registered-Users		Registered Users
+# UUID                                  	Group Name
+#
+94fa2eefe71cb345fed9b8dbb881bd0ac85f5008	openstack/ansible-pacemaker-distgit-ptl
+f70bf358505ef81d2b7c12cecbe3f9563bfd9693	openstack/ansible-pacemaker-distgit-core
+global:Registered-Users                 	Registered Users
