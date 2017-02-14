@@ -3,14 +3,14 @@
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
 Name:           ansible-pacemaker
-Version:        0.1
-Release:        1%{?dist}
+Version:        XXX
+Release:        XXX
 Summary:        Ansible modules for managing Pacemaker clusters
 
 Group:          System Environment/Base
 License:        ASL 2.0
 URL:            https://github.com/redhat-openstack/ansible-pacemaker
-Source0:        https://github.com/redhat-openstack/ansible-pacemaker/archive/master.tar.gz
+Source0:        https://github.com/redhat-openstack/ansible-pacemaker/archive/%{upstream_version}.tar.gz
 
 BuildArch:      noarch
 BuildRequires:  python2-devel
