@@ -13,6 +13,7 @@ URL:            https://github.com/redhat-openstack/ansible-pacemaker
 Source0:        https://github.com/redhat-openstack/ansible-pacemaker/archive/%{upstream_version}.tar.gz
 
 BuildArch:      noarch
+BuildRequires:  git
 BuildRequires:  python2-devel
 BuildRequires:  python-setuptools
 BuildRequires:  python-d2to1
@@ -26,7 +27,7 @@ Ansible-pacemaker is a set of Ansible modules for a Pacemaker cluster, nodes
 and resources.
 
 %prep
-%setup -q -n %{name}-%{upstream_version}
+%autosetup -n %{name}-%{upstream_version} -S git
 
 
 %build
