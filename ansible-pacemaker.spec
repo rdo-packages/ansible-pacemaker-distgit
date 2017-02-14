@@ -3,8 +3,8 @@
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
 Name:           ansible-pacemaker
-Version:        XXX
-Release:        XXX
+Version:        1.0.0
+Release:        1%{?dist}
 Summary:        Ansible modules for managing Pacemaker clusters
 
 Group:          System Environment/Base
@@ -47,3 +47,6 @@ export SKIP_PIP_INSTALL=1
 
 
 %changelog
+* Tue Feb 14 2017 Alfredo Moralejo <amoralej@redhat.com> 1.0.0-1
+- Update to 1.0.0
+
