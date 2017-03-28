@@ -1,5 +1,9 @@
-# UUID                                  	Group Name
-#
-94fa2eefe71cb345fed9b8dbb881bd0ac85f5008	openstack/ansible-pacemaker-distgit-ptl
-f70bf358505ef81d2b7c12cecbe3f9563bfd9693	openstack/ansible-pacemaker-distgit-core
-global:Registered-Users                 	Registered Users
+# UUID Group Name
+global:Registered-Users	Registered Users
+4572c517702492251ad622a289176552a8acbbb2	rdo-superusers
+global:Anonymous-Users	Anonymous Users
+05a678d3d4a168e149d5e8a0063bbd1b1c5526da	Administrators
+401cf37bee35d1c809d4d957e55f2a304f8eed69	rdo-provenpackagers
+6ddfecad023c6f4fa3ac8c4d2583c502ea675a73	Non-Interactive Users
+f4e4a75946d2194388de4134520c62653c0c7ce6	openstack/ansible-pacemaker-ptl
+a9aae0bde4271e414ae57bbb39c7d7a6e91edde7	openstack/ansible-pacemaker-core
