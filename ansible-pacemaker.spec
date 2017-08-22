@@ -20,6 +20,7 @@ BuildRequires:  python-d2to1
 BuildRequires:  python-pbr
 
 Requires: ansible
+Requires: python-lxml
 
 %description
 
