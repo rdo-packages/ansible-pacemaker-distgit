@@ -32,20 +32,20 @@ and resources.
 
 
 %build
-%{__python2} setup.py build
+%py2_build
 
 
 %install
 export PBR_VERSION=%{version}
 export SKIP_PIP_INSTALL=1
-%{__python2} setup.py install --skip-build --root %{buildroot}
+%py2_install
 
 
 %files
 %doc README*
 %license LICENSE
 %{python2_sitelib}/%{srcname}-%{version}-py%{python2_version}.egg-info
-/usr/share/ansible-modules/
+%{_datadir}/ansible-modules/
 
 
 %changelog
