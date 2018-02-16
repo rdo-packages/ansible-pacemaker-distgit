@@ -15,9 +15,9 @@ Source0:        https://github.com/redhat-openstack/ansible-pacemaker/archive/%{
 BuildArch:      noarch
 BuildRequires:  git
 BuildRequires:  python2-devel
-BuildRequires:  python-setuptools
+BuildRequires:  python2-setuptools
 BuildRequires:  python-d2to1
-BuildRequires:  python-pbr
+BuildRequires:  python2-pbr
 
 Requires: ansible
 Requires: python-lxml
