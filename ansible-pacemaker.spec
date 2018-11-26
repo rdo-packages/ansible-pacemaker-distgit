@@ -40,12 +40,11 @@ export PBR_VERSION=%{version}
 export SKIP_PIP_INSTALL=1
 %py2_install
 
-
 %files
 %doc README*
 %license LICENSE
 %{python2_sitelib}/%{srcname}-%{version}-py%{python2_version}.egg-info
-%{_datadir}/ansible-modules/
+%{_datadir}/ansible/plugins/modules/
 
 
 %changelog
