@@ -22,6 +22,30 @@
       "revId": "7ebfbeb0c8e1ef2ae849b6efcc45cc169791bb58",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_7a0d4c8f",
+        "filename": "ansible-pacemaker.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 303
+      },
+      "writtenOn": "2018-12-03T14:56:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9abe1de1_1aac10ec",
+      "range": {
+        "startLine": 3,
+        "startChar": 8,
+        "endLine": 3,
+        "endChar": 17
+      },
+      "revId": "7ebfbeb0c8e1ef2ae849b6efcc45cc169791bb58",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
     }
   ]
 }
