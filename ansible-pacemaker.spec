@@ -40,7 +40,11 @@ BuildRequires: python%{pyver}-d2to1
 Requires: ansible
 Requires: python-lxml
 %else
+%if 0%{?rhel} > 7
+Requires: ansible
+%else
 Requires: ansible-python3
+%endif
 Requires: python%{pyver}-lxml
 %endif
 
