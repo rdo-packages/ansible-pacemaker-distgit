@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ad0253b_809c856a",
+        "filename": "ansible-pacemaker.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 85
+      },
+      "writtenOn": "2019-01-29T12:46:58Z",
+      "side": 1,
+      "message": "Requires: python3dist(ansible)\nshould work with both Fedora and RHEL8 builds of Ansible",
+      "revId": "c7a3f0ee6cbf61bfddafff16163fb22501aac078",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
