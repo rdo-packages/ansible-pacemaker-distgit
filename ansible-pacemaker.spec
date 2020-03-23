@@ -71,7 +71,7 @@ export SKIP_PIP_INSTALL=1
 %doc README*
 %license LICENSE
 %{pyver_sitelib}/%{srcname}-%{version}-*.egg-info
-%{_datadir}/ansible-modules/
+%{_datadir}/ansible/
 
 
 %changelog
