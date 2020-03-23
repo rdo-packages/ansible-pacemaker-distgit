@@ -52,3 +52,4 @@ export SKIP_PIP_INSTALL=1
 * Mon Aug 27 2018 RDO <dev@lists.rdoproject.org> 1.0.3-1
 - Update to 1.0.3
 
+# REMOVEME: error caused by commit https://github.com/redhat-openstack/ansible-pacemaker/commit/5ccc3ac81541a24881f5a923deb87f84f87808eb
