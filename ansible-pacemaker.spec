@@ -70,3 +70,4 @@ export SKIP_PIP_INSTALL=1
 
 
 %changelog
+# REMOVEME: error caused by commit https://github.com/redhat-openstack/ansible-pacemaker/commit/7c03114085124f3a5e7718e4f8549cd13525f82b
