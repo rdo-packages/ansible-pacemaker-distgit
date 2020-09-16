@@ -19,7 +19,7 @@ BuildRequires:  python3-devel
 BuildRequires:  python3-setuptools
 BuildRequires:  python3-pbr
 
-Requires: ansible
+Requires: python3dist(ansible)
 Requires: python3-lxml
 
 %description
