@@ -19,7 +19,7 @@ BuildRequires:  python3-devel
 BuildRequires:  python3-setuptools
 BuildRequires:  python3-pbr
 
-Requires: python3dist(ansible)
+Requires: (python3dist(ansible) or ansible-core >= 2.11)
 Requires: python3-lxml
 
 %description
@@ -29,7 +29,8 @@ and resources.
 
 %prep
 %autosetup -n %{name}-%{upstream_version} -S git
-
+#Remove ansible from requirements.txt as dependency on ansible is managed manually
+sed -i '/^ansible/d' requirements.txt
 
 %build
 %py3_build
