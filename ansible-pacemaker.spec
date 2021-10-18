@@ -1,11 +1,15 @@
+%{!?upstream_version: %global upstream_version %{commit}}
+%define upstream_name ansible-pacemaker
+%global commit 666f706b8fef8e59df690a59a838efb6eeec5815
+%global shortcommit %(c=%{commit}; echo ${c:0:7})
+# DO NOT REMOVE ALPHATAG
+%global alphatag .%{shortcommit}git
 
 %global srcname ansible_pacemaker
 
-%{!?upstream_version: %global upstream_version %{version}%{?milestone}}
-
 Name:           ansible-pacemaker
-Version:        XXX
-Release:        XXX
+Version:        1.0.4
+Release:        2%{?alphatag}%{?dist}
 Summary:        Ansible modules for managing Pacemaker clusters
 
 Group:          System Environment/Base
@@ -50,3 +54,5 @@ export SKIP_PIP_INSTALL=1
 
 
 %changelog
+* Mon Oct 18 2021 Joel Capitao <jcapitao@redhat.com> - 1.0.4-2.666f706bgit
+- Update to post-1.0.4 commit (666f706b8fef8e59df690a59a838efb6eeec5815)
